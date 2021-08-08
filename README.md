@@ -43,8 +43,11 @@ This is a practical example of how to use.
 ```typescript
 import { healthCheck } from "@mongodb-helpers/health-check";
 
-const status = await healthCheck({ url: process.env.MONGODB_URL });
+const status = await healthCheck(MonogoDBorMongooseClient);
 // 'Connected' | 'Disconnected'
+// MonogoDBorMongooseClient:
+// - mongodb: const client = await MongoClient.connect(MONGODB_URL)
+// - mongoose: const client = await mongoose.connect(MONGODB_URL)
 ```
 
 #### License
