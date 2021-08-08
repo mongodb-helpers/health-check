@@ -1,7 +1,7 @@
 {
   "name": "@mongodb-helpers/health-check",
-  "version": "0.1.0",
-  "description": "A simple helper function for checking if your mongoose/mongodb connection to MongoDB is good",
+  "version": "0.1.1",
+  "description": "Simple helper function for checking if your mongoose/mongodb connection to MongoDB is good",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
