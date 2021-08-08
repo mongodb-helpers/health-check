@@ -4,7 +4,7 @@ import { MongoClient } from 'mongodb'
 
 import { healthCheck } from '../src'
 
-const MONGODB_URL = 'mongodb+srv://admin:admin@cluster0.ndtam.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const MONGODB_URL = 'mongodb+srv://test:test@cluster0.6os9x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 describe('health-check module', () => {
   it('should export health-check as function with 1 param', () => {
