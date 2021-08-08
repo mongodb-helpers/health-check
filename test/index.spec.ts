@@ -1,7 +1,6 @@
-import { assert, expect } from 'chai'
+import { assert } from 'chai'
 import mongoose from 'mongoose'
-import { Db, MongoClient } from 'mongodb'
-import { connect } from '@mongodb-helpers/connect'
+import { MongoClient } from 'mongodb'
 
 import { healthCheck } from '../src'
 
