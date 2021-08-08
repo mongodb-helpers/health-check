@@ -23,7 +23,7 @@
 
 <!-- ***************** -->
 
-### A simple helper function for checking if your mongoose connection to MongoDB is good 🪁.
+### A simple helper function for checking if your mongoose/mongodb connection to MongoDB is good 🪁.
 
 ## `Installation`
 
